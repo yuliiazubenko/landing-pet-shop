@@ -1,0 +1,416 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 60px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list a {
+  padding: 0 10px;
+  margin: 0 20px 0 20px;
+  color: #124c5f;
+  font-weight: bold;
+}
+
+.nav-btn {
+  text-align: center;
+  display: block;
+  line-height: 45px;
+  border-radius: 5px;
+  width: 146px;
+}
+
+.sign-in {
+  color: white;
+  background-color: #124c5f;
+  border: 1px solid #124c5f;
+}
+
+.register {
+  color: #124c5f;
+  background-color: #c7e7e1;
+  border: 1px solid #c7e7e1;
+}
+
+.section-1 {
+  background-image: url(/img/bg-main-1.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.explore-btn {
+  display: block;
+  color: white;
+  background-color: #124c5f;
+  width: 198px;
+  height: 58px;
+  border-radius: 5px;
+  border: 1px solid #124c5f;
+  margin-top: 46px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 56px;
+}
+
+.main-img {
+  padding-bottom: 26px;
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  margin-left: 158px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+hr {
+  width: 117px;
+  background: #3a8da8;
+  height: 4px;
+  margin-left: 158px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.services-img {
+  width: 200px;
+}
+
+.learn-more {
+  display: flex;
+}
+
+.learn-more p {
+  margin-right: 158px;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-weight: normal;
+  margin-top: 120px;
+  margin-bottom: 22px;
+}
+
+.learn-more-left {
+  display: flex;
+  position: relative;
+}
+
+.play {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 130px;
+}
+
+.play p {
+  color: white;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  width: 85px;
+  margin: 0 -10px;
+}
+
+.dog-food > p {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  margin-left: 158px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item1 {
+  background-image: url(/img/pink-bg.png);
+}
+
+.item2 {
+  background-image: url(/img/yellow-bg.png);
+}
+
+.item3 {
+  background-image: url(/img/blue-bg.png);
+}
+
+.grid-img {
+  margin-left: 30%;
+  max-height: 240px;
+  width: 240px;
+}
+
+.grid-text {
+  margin-left: 100px;
+}
+
+.grid-text h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  margin-top: 22px;
+}
+
+.grid-text p {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #979697;
+}
+
+.buy-btn {
+  color: #124c;
+  border: 2px solid #124c;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  padding: 10px 46px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.dog-man {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(#f6fffd, white);
+  margin-top: 68px;
+}
+
+.dog-man-text {
+  margin-left: 174px;
+}
+
+.customers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 20px 82px;
+  margin-bottom: 86px;
+}
+
+.customer1,
+.customer2,
+.customer3 {
+  width: 360px;
+  height: 458px;
+}
+
+.customer-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-height: 340px;
+}
+
+.cust1 {
+  background-color: #fff1a6;
+}
+
+.cust2 {
+  background-color: #eba8bf;
+}
+
+.cust3 {
+  background-color: #ddc7ed;
+  position: relative;
+  z-index: -1;
+}
+
+.customer-text {
+  background-color: #124c5f;
+  height: 142px;
+}
+
+.customer-text h4 {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  color: #ddca69;
+  margin: 0;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.customer-text p {
+  color: white;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+.review {
+  color: white;
+  text-align: center;
+}
+
+.review-btn a {
+  margin: 0 auto;
+}
+
+.contact {
+  background-color: #f6faf9;
+  padding-top: 86px;
+  margin-top: 98px;
+}
+
+.contact h3 {
+  text-align: center;
+  margin-bottom: 98px;
+}
+
+.reach-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.email-input {
+  background-color: white;
+  width: 750px;
+  min-height: 118px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 0 4px 34px lightgray;
+}
+
+.email-input a {
+  display: block;
+  color: white;
+  background-color: #124c5f;
+  width: 198px;
+  height: 58px;
+  border-radius: 5px;
+  border: 1px solid #124c5f;
+  font-size: 16px;
+  text-align: center;
+  line-height: 56px;
+}
+
+.envelope {
+  display: flex;
+}
+
+.envelope input {
+  border: 1px solid white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  width: 260px;
+}
+
+.fa-envelope {
+  color: #d2cfcf;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+::placeholder {
+  color: #414141;
+}
+
+.reach-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 100px 160px 80px 160px;
+}
+
+.reach-us h4 {
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+}
+
+.fa-brands {
+  font-size: 58px;
+  color: #5b5b5b;
+  margin-right: 28px;
+}
+
+.phone-number {
+  color: #124c5f;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.address {
+  color: #757777;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #f6faf9;
+}
+
+footer hr {
+  margin: 0;
+  width: auto;
+  color: #c7c7c7;
+  height: 1px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 28px 288px 30px 288px;
+}
+
+.footer p {
+  color: #414141;
+  font-size: 16px;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.footer a {
+  color: black;
+}
